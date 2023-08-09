@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "image":"https://cdn.pixabay.com/photo/2014/11/13/06/12/boy-529067_1280.jpg",
+      "messages": [
+        { "id": 1, "text": "Hi there!", "sender": "user" },
+        { "id": 2, "text": "Hello!", "sender": "contact" },
+        { "id": 3, "text": "How are you?", "sender": "user" },
+        { "id": 4, "text": "I'm good, thanks!", "sender": "contact" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+       "image":"https://cdn.pixabay.com/photo/2017/04/01/21/06/portrait-2194457_1280.jpg",
+      "messages": [
+        { "id": 1, "text": "Hey!", "sender": "user" },
+        { "id": 2, "text": "Hi!", "sender": "contact" }
+      ]
+    },
+     {
+      "id": 3,
+      "name": "Peter Gates",
+       "image":"https://cdn.pixabay.com/photo/2013/05/11/08/28/sunset-110305_640.jpg",
+      "messages": [
+        { "id": 1, "text": "Hey!", "sender": "user" },
+        { "id": 2, "text": "Hi!", "sender": "contact" }
+      ]
+    },
+     {
+      "id": 4,
+      "name": "Alex Bond",
+       "image":"https://cdn.pixabay.com/photo/2017/08/01/01/33/beanie-2562646_640.jpg",
+      "messages": [
+        { "id": 1, "text": "Hey!", "sender": "user" },
+        { "id": 2, "text": "Hi!", "sender": "contact" }
+      ]
+    },
+     {
+      "id": 5,
+      "name": "Tim Pain",
+       "image":"https://cdn.pixabay.com/photo/2015/01/27/09/58/man-613601_640.jpg",
+      "messages": [
+        { "id": 1, "text": "Hey!", "sender": "user" },
+        { "id": 2, "text": "Hi!", "sender": "contact" }
+      ]
+    },
+     {
+      "id": 6,
+      "name": "Chris Pam",
+       "image":"https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_640.jpg",
+      "messages": [
+        { "id": 1, "text": "Hey!", "sender": "user" },
+        { "id": 2, "text": "Hi!", "sender": "contact" }
+      ]
+    }
+  ]

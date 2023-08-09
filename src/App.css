@@ -1,0 +1,173 @@
+/* src/App.css */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-app {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.left-sidebar {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.right-side-view {
+  flex: 3;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.conversation {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+}
+.img-div{
+  display: inline;
+}
+.img-div img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.conversation:hover {
+  background-color: #f0f0f0;
+}
+
+.message {
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  min-height: 20px;
+  width: max-content;
+  padding-top: 2%;
+}
+
+.user {
+  background-color: #007bff;
+  color: #fff;
+  align-self: flex-end;
+}
+
+.contact {
+  background-color: #e9ecef;
+  color: #000;
+  align-self: flex-start;
+}
+
+.contact-name{
+  display: inline;
+  padding-top: 1%;
+}
+
+.contact-name span{
+  display: block;
+  padding-left: 3%;
+  width: 5% !important;
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+}
+/* styles.css */
+
+.contact-text{
+  min-width: 40px;
+  max-height: 3em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 5px;
+  position: relative;
+}
+
+.contact-text::after{
+  content: "...";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.search-container input[type="text"] {
+  border: none;
+  padding: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-btn{
+  background-color: white;
+  border: none;
+  font-size: larger;
+}
+.search-btn i{
+  margin-left: 10px;;
+}
+
+.contact-name-top{
+color:black;
+display: block;
+margin-left: 50px;
+margin-top: -30px;
+}
+
+.message-top{
+  cursor: pointer;
+  width: 100%;
+  height: 70px;
+  margin-top: -12px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+}
+
+
+.msger-inputarea {
+  margin-top: 1%;
+  display: flex;
+  padding: 10px;
+  border-top: var(--border);
+}
+.msger-inputarea * {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+}
+.msger-input {
+  flex: 1;
+  background: #ddd;
+}
+.msger-send-btn {
+  margin-left: 10px;
+  background: rgb(0, 196, 65);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.23s;
+}
+.msger-send-btn:hover {
+  background: rgb(0, 180, 50);
+}
+
+
+.messages-list{
+  height: 500px;
+}
